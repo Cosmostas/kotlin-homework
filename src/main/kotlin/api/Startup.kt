@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 @SpringBootApplication
 class Startup
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>)
+{
 	runApplication<Startup>(*args)
 }
